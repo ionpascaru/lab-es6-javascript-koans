@@ -367,7 +367,7 @@ describe('arrow functions. ', () => {
 
     getFunction() {
       return () => {
-        return new LexicallyBound(); /*changes might go here*///
+        return new LexicallyBound(); /*changes might go here*/
       };
     } 
 
